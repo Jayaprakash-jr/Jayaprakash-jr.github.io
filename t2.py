@@ -74,3 +74,86 @@ points = calcNSEW(lat1, long1, lat2, long2)
 print ("The Lincoln memorial is " + points + " of the White House")
 print ("Actually bearing of 231.88 degrees")
 
+
+
+
+
+
+
+
+
+
+
+https://www.openandromaps.org/en/downloads/general-maps
+Manual installation, unzip if needed, move map file to a folder which can be handled by the resp. app.
+
+import os
+
+from flask import Flask, flash, redirect, render_template, request, url_for, send_file
+
+app = Flask(__name__)
+LLData= 'Init'
+
+@app.route('/postLLdata', methods = ['POST'])  
+def success():
+    global LLData
+    LLData=request.data
+    return "OK"
+
+@app.route('/getLLdata', methods = ['GET'])
+def download_file():
+    global  LLData
+    return  LLData
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import requests
+import json
+import time
+url='http://localhost:5000/postLLdata'
+#url='http://localhost:5055'
+import random
+import random
+data=""
+#http://demo.traccar.org:5055/?id=12345&lat=48.8566&lon=2.3522&timestamp=1609459200000
+def sendData(url,post_data):
+        #url='http://localhost:5055/postLLdata'
+        url='http://localhost:5055'
+        data1=f'id=123&lat=48.8566&lon=2.3522&timestamp=1609459200000&distance={random.randint(1,500)}&T2=123'
+        data2=f'id=12&lat=70.8566&lon=2.3522&timestamp=1609459200000&distance={random.randint(1,5000)}&T2=123&roaming=NorthEast&bearing={random.randint(1,360)}'
+        #data1 = f'id=DORA&lat={random.randint(1,3)}&lon=2.3522&timestamp={random.randint(1,500)}'
+        print(data2)
+        content = requests.post(url,data=data1)
+        content = requests.post(url,data=data2)
+        return content.status_code
+
+def getRecLLdata():
+        content = requests.get("http://localhost:5000/getLLdata")
+        if content.status_code == 200 :
+           return content.text
+        else:
+           return None
+while 1:
+    print(sendData(url,data))
+    print(getRecLLdata())
+    time.sleep(3)
+
+
+
+
