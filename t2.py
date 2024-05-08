@@ -178,7 +178,7 @@ https://forums.raspberrypi.com/viewtopic.php?t=354412
 
 
 
-
+https://raspberrypi-guide.github.io/electronics/add-real-time-clock
 
 
 
