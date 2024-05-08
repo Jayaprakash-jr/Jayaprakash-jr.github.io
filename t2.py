@@ -157,3 +157,35 @@ while 1:
 
 
 
+
+
+
+
+
+
+
+
+https://forums.raspberrypi.com/viewtopic.php?t=244827
+Re: Pi-4 Activating additional UART ports
+
+Tue Aug 06, 2019 3:16 pm
+I suggest you start by running the following to establish whether the configuration has been successful: 
+https://forums.raspberrypi.com/viewtopic.php?t=354412
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
