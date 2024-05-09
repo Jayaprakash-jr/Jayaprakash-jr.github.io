@@ -183,6 +183,38 @@ https://raspberrypi-guide.github.io/electronics/add-real-time-clock
 
 
 
+[Unit]
+Description=FLDEC OTA
+After=network.target
+
+[Service]
+Type=simple 
+#ExecStart=/usr/bin/python3 -u /home/fldec_pi4/Spliter/pushiptomqtt.py
+ExecStart=/home/fldec_pi4/Spliter/pushiptomqttShell.sh
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy = multi-user.target
+
+
+
+
+https://www.codementor.io/@ufuksfk/how-to-run-a-python-script-in-linux-with-systemd-1nh2x3hi0e
+
+
+[Unit]
+Description=My Lovely Service
+After=network.target
+
+[Service]
+Type=idle
+Restart=on-failure
+User=root
+ExecStart=/bin/bash -c 'cd /home/ubuntu/project/ && python app.py'
+
+[Install]
+WantedBy=multi-user.target
 
 
 
