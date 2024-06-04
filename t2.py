@@ -222,3 +222,10 @@ WantedBy=multi-user.target
 
 https://www.theengineerstore.in/products/wm1302-lorawan-gateway-module-based-on-sx1302?variant=43853767803043&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorb9rEI95xIrkmJqVTP0ioch05ipo6J6Na3KVi60-bvfqc2n3FXDWY&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e
 https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-USB-EU868-p-4892.html
+
+
+https://forum.rakwireless.com/t/rak3172-lora-not-going-into-bootmode-anymore/8946/9
+https://forum.rakwireless.com/t/rak3172-rui3-flash-api-usage/7061
+https://downloads.rakwireless.com/LoRa/RAK3172/Firmware/RAK3172_Latest_Firmware.zip
+https://forum.rakwireless.com/t/rak3172-latest-firmware-with-unresponsive-boot-mode/7063/6
+https://docs.rakwireless.com/Knowledge-Hub/Learn/STM32Cube-Programmer-Guide/
