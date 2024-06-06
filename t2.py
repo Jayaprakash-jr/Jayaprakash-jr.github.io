@@ -229,3 +229,6 @@ https://forum.rakwireless.com/t/rak3172-rui3-flash-api-usage/7061
 https://downloads.rakwireless.com/LoRa/RAK3172/Firmware/RAK3172_Latest_Firmware.zip
 https://forum.rakwireless.com/t/rak3172-latest-firmware-with-unresponsive-boot-mode/7063/6
 https://docs.rakwireless.com/Knowledge-Hub/Learn/STM32Cube-Programmer-Guide/
+
+
+https://wiki.seeedstudio.com/Wio-Tracker_Introduction/
