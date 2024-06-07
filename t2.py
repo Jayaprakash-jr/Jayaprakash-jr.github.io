@@ -220,6 +220,10 @@ WantedBy=multi-user.target
 
 
 
+https://docs.rakwireless.com/RUI3/Arduino-API/
+
+
+
 https://www.theengineerstore.in/products/wm1302-lorawan-gateway-module-based-on-sx1302?variant=43853767803043&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorb9rEI95xIrkmJqVTP0ioch05ipo6J6Na3KVi60-bvfqc2n3FXDWY&com_cvv=d30042528f072ba8a22b19c81250437cd47a2f30330f0ed03551c4efdaf3409e
 https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-USB-EU868-p-4892.html
 
